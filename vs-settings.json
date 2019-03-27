@@ -1,0 +1,23 @@
+"editor.formatOnSave": true,
+"[typescript]": {
+    "editor.formatOnSave": false,
+},
+"[typescriptreact]": {
+    "editor.formatOnSave": false,
+},
+
+"editor.rulers": [80, 120],
+"prettier.eslintIntegration": true,
+"eslint.autoFixOnSave": true,
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+        "language": "typescript",
+        "autoFix": true
+    },
+    {
+        "language": "typescriptreact",
+        "autoFix": true
+    }
+]
